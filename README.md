@@ -11,4 +11,4 @@ If you answered any of those questions with a yes, then GymPlannr is the app of 
 
 ## Links
 
-[Backlog](../blob/master/Documentation/backlog.md)
+[Backlog](../master/Documentation/backlog.md)
