@@ -6,7 +6,7 @@
 		"passhash": "String",
 		"workouts": [{"id": "Workout_id"}],
 		"id": "User_id",	
-	}
+	},
 	"Workout":
 	{
 		"name": "String",
@@ -21,8 +21,7 @@
 			"break": "Integer", //The time in between sets
 		}],
 		"id": "Workout_id"
-	}
-
+	},
 	"Move":
 	{
 		"name": "String",
