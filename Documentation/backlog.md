@@ -4,4 +4,4 @@
 | :----:|:-----| :-----|
 | 15.3. | 1    | Creating the repository |
 |       | 1    | Figuring out the initial version of the database |
-| total | 1   | | 
+| total | 2   | | 
