@@ -18,7 +18,7 @@
 			"sets": "Integer",
 			"reps": "Integer",
 			"weight": "Integer",
-			"break": "Integer", //The time in between sets
+			"break": "Integer"
 		}],
 		"id": "Workout_id"
 	},
