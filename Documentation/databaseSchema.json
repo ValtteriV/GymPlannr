@@ -4,14 +4,14 @@
 		"username": "String",
 		"name": "String",
 		"passhash": "String",
-		"workouts": ["id": "Workout_id"],
+		"workouts": [{"id": "Workout_id"}],
 		"id": "User_id",	
 	}
 	"Workout":
 	{
 		"name": "String",
 		"creator": "User_id",
-		"sharedwith": ["id": "User_id"],
+		"sharedwith": [{"id": "User_id"}],
 		"moves": [{
 			"optionalmoveID": "Move_id",
 			"name": "String",
