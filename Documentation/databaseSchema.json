@@ -1,32 +1,31 @@
 {
-	User: 
+	"User": 
 	{
-		username: String;
-		name: String;
-		passhash: String;
-		workouts: [id: Workout_id];
-		id: User_id;		
-	}
-	Workout:
+		"username": "String",
+		"name": "String",
+		"passhash": "String",
+		"workouts": [{"id": "Workout_id"}],
+		"id": "User_id",	
+	},
+	"Workout":
 	{
-		name: String;
-		creator: User_id;
-		sharedwith: [id: User_id];
-		moves: [{
-			optionalmoveID: Move_id;
-			name: String;
-			sets: Integer;
-			reps: Integer;
-			weight: Integer;
-			break: Integer; //The time in between sets
-		}];
-		id: Workout_id;
-	}
-
-	Move:
+		"name": "String",
+		"creator": "User_id",
+		"sharedwith": [{"id": "User_id"}],
+		"moves": [{
+			"optionalmoveID": "Move_id",
+			"name": "String",
+			"sets": "Integer",
+			"reps": "Integer",
+			"weight": "Integer",
+			"break": "Integer"
+		}],
+		"id": "Workout_id"
+	},
+	"Move":
 	{
-		name: String;
-		description: String;
-		id: Move_id;
+		"name": "String",
+		"description": "String",
+		"id": "Move_id",
 	}
 }
